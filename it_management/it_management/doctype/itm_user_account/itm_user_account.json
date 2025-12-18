@@ -1,0 +1,228 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{type} {user_name} on {software_instance}",
+ "creation": "2025-12-17 15:21:08.328321",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "itm_user_account_type",
+  "general_section",
+  "customer",
+  "customer_name",
+  "itm_landscape",
+  "contact",
+  "column_break_6",
+  "status",
+  "user_name",
+  "host_section",
+  "itm_software_instance",
+  "column_break_11",
+  "itm_host_item",
+  "section_break_10",
+  "description",
+  "user_accounts",
+  "itm_user_account_table",
+  "section_break_8",
+  "itm_user_groups",
+  "software_instances",
+  "itm_software_instance_table",
+  "configuration_items",
+  "itm_host_item_table",
+  "solutions",
+  "itm_solution_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_section",
+   "fieldtype": "Section Break",
+   "label": "General"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "bold": 1,
+   "fetch_from": "customer.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Link",
+   "label": "Contact",
+   "options": "Contact"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Running",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Implementing\nRunning\nIssue\nStorage\nObsolet"
+  },
+  {
+   "description": "User name or Account name",
+   "fieldname": "user_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "User Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "host_section",
+   "fieldtype": "Section Break",
+   "label": "Host"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "user_accounts",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "software_instances",
+   "fieldtype": "Section Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "configuration_items",
+   "fieldtype": "Section Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "solutions",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "itm_landscape",
+   "fieldtype": "Link",
+   "label": "ITM Landscape",
+   "options": "ITM Landscape"
+  },
+  {
+   "fieldname": "itm_software_instance",
+   "fieldtype": "Link",
+   "label": "ITM Software Instance",
+   "options": "ITM Software Instance",
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "fetch_from": "software_instance.configuration_item",
+   "fieldname": "itm_host_item",
+   "fieldtype": "Link",
+   "label": "ITM Host Item",
+   "options": "ITM Host Item",
+   "read_only": 1
+  },
+  {
+   "fieldname": "itm_user_account_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Type",
+   "options": "ITM User Account Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "itm_user_account_table",
+   "fieldtype": "Table",
+   "label": "ITM User Account Table",
+   "options": "ITM User Account Table"
+  },
+  {
+   "fieldname": "itm_user_groups",
+   "fieldtype": "Table",
+   "label": "ITM User Groups",
+   "options": "ITM User Group Table"
+  },
+  {
+   "fieldname": "itm_software_instance_table",
+   "fieldtype": "Table",
+   "label": "ITM Software Instances",
+   "options": "ITM Software Instance Table"
+  },
+  {
+   "fieldname": "itm_solution_table",
+   "fieldtype": "Table",
+   "in_standard_filter": 1,
+   "label": "ITM Solutions",
+   "options": "ITM Solution Table"
+  },
+  {
+   "fieldname": "itm_host_item_table",
+   "fieldtype": "Table",
+   "label": "ITM Host Items",
+   "options": "ITM Host Item Table"
+  }
+ ],
+ "links": [],
+ "modified": "2025-12-17 15:46:02.872133",
+ "modified_by": "Administrator",
+ "module": "IT Management",
+ "name": "ITM User Account",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Support Team",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "search_fields": "description,user_name,customer",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
