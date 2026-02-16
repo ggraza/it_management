@@ -21,11 +21,11 @@
   {
    "child": 0,
    "collapsible": 1,
-   "icon": "computer",
+   "icon": "land-plot",
    "indent": 0,
    "keep_closed": 0,
-   "label": "ITM Host Item",
-   "link_to": "ITM Host Item",
+   "label": "ITM Landscape",
+   "link_to": "ITM Landscape",
    "link_type": "DocType",
    "show_arrow": 0,
    "type": "Link"
@@ -33,11 +33,11 @@
   {
    "child": 0,
    "collapsible": 1,
-   "icon": "land-plot",
+   "icon": "computer",
    "indent": 0,
    "keep_closed": 0,
-   "label": "ITM Landscape",
-   "link_to": "ITM Landscape",
+   "label": "ITM Host Item",
+   "link_to": "ITM Host Item",
    "link_type": "DocType",
    "show_arrow": 0,
    "type": "Link"
@@ -55,7 +55,7 @@
    "type": "Link"
   }
  ],
- "modified": "2026-02-15 18:03:29.176039",
+ "modified": "2026-02-15 20:17:02.613914",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "IT Management",
