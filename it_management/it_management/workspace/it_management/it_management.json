@@ -1,6 +1,7 @@
 {
+ "app": "it_management",
  "charts": [],
- "content": "[{\"id\":\"EkdyV3N5Ie\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">IT Management</span>\",\"col\":12}},{\"id\":\"rwNPVL-p3-\",\"type\":\"paragraph\",\"data\":{\"text\":\"Welcome to IT Management App. An app that is built on frappe and can be run without using ERPNext. if desired can be actived for ERPNext thought setting. You will find that each Doctype created for IT Management app carries the prefix ITM to make sure that name duplicates are avoided that you can quickly identify you are navigating in IT Management app.\",\"col\":12}},{\"id\":\"lVIHnh6pht\",\"type\":\"paragraph\",\"data\":{\"text\":\"Your Overall IT overview starts with the ITM IT Landscape. A IT Landscape is linked in the most other DocTypes of this app and will help you nagivate to all the different doctype availableto you and your IT Landscape.\",\"col\":12}},{\"id\":\"0vWI7JIgVu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"ITM Landscape\",\"col\":3}},{\"id\":\"MsrvszhZSu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"ITM Host Item\",\"col\":3}}]",
+ "content": "[{\"id\":\"EkdyV3N5Ie\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">IT Management</span>\",\"col\":12}},{\"id\":\"rwNPVL-p3-\",\"type\":\"paragraph\",\"data\":{\"text\":\"Welcome to the IT Management App. This app is built on Frappe and can be run without using ERPNext. If desired can be activated for ERPNext through the settings. Each Doctype created for the IT Management app carries the prefix ITM to avoid name duplicates and to quickly identity them as belonging to the IT Management app.\",\"col\":12}},{\"id\":\"lVIHnh6pht\",\"type\":\"paragraph\",\"data\":{\"text\":\"Your overall IT overview starts with the ITM Landscape. An IT Landscape is linked to most other DocTypes in this app and will help you navigate all the different DocTypes available to your IT Landscapes.\",\"col\":12}},{\"id\":\"0vWI7JIgVu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"ITM Landscape\",\"col\":3}},{\"id\":\"MsrvszhZSu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"ITM Host Item\",\"col\":3}},{\"id\":\"vQ568QpuUS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"IT Management Settings\",\"col\":3}}]",
  "creation": "2024-01-16 04:51:02.486516",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,7 +13,7 @@
  "is_hidden": 0,
  "label": "IT Management",
  "links": [],
- "modified": "2024-01-30 10:26:57.444627",
+ "modified": "2026-02-15 17:18:00.352476",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "IT Management",
@@ -34,10 +35,19 @@
   {
    "color": "Grey",
    "doc_view": "List",
+   "label": "IT Management Settings",
+   "link_to": "IT Management Settings",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
    "label": "ITM Landscape",
    "link_to": "ITM Landscape",
    "type": "DocType"
   }
  ],
- "title": "IT Management"
+ "title": "IT Management",
+ "type": "Workspace"
 }

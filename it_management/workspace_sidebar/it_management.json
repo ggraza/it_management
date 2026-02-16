@@ -1,0 +1,65 @@
+{
+ "app": "it_management",
+ "creation": "2026-02-16 06:23:03.337298",
+ "docstatus": 0,
+ "doctype": "Workspace Sidebar",
+ "header_icon": "setting-gear",
+ "idx": 0,
+ "items": [
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "home",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Home",
+   "link_to": "IT Management",
+   "link_type": "Workspace",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "land-plot",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "ITM Landscape",
+   "link_to": "ITM Landscape",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "computer",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "ITM Host Item",
+   "link_to": "ITM Host Item",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "settings",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "IT Management Settings",
+   "link_to": "IT Management Settings",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-02-15 20:17:02.613914",
+ "modified_by": "Administrator",
+ "module": "IT Management",
+ "name": "IT Management",
+ "owner": "Administrator",
+ "standard": 1,
+ "title": "IT Management"
+}
