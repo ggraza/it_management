@@ -96,34 +96,35 @@
   {
    "fieldname": "itm_landscape",
    "fieldtype": "Link",
-   "label": "ITM Landscape",
+   "label": "Landscape",
    "options": "ITM Landscape"
   },
   {
    "fieldname": "itm_location",
    "fieldtype": "Link",
-   "label": "ITM Location",
+   "label": "Location",
    "options": "ITM Location"
   },
   {
    "fieldname": "itm_solution_table",
    "fieldtype": "Table",
-   "label": "ITM Solution Relationships",
+   "label": "Solution Relationships",
    "options": "ITM Solution Table"
   },
   {
    "fieldname": "itm_user_account_table",
    "fieldtype": "Table",
    "hidden": 1,
-   "label": "ITM User Account Table",
+   "label": "User Account Table",
    "options": "ITM User Account Table"
   }
  ],
  "links": [],
- "modified": "2025-12-17 15:31:12.359469",
+ "modified": "2026-04-06 12:02:51.377562",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "ITM Solution",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

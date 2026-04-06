@@ -12,7 +12,7 @@
  "fields": [
   {
    "fieldname": "note",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "in_list_view": 1,
    "label": "Note"
   },
@@ -20,13 +20,13 @@
    "fieldname": "itm_user_account",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "ITM User Account",
+   "label": "User Account",
    "options": "ITM User Account"
   }
  ],
  "istable": 1,
  "links": [],
- "modified": "2025-12-17 15:28:31.662381",
+ "modified": "2026-04-06 12:02:00.016069",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "ITM User Account Table",

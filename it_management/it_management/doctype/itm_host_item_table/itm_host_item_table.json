@@ -28,13 +28,13 @@
    "fieldname": "itm_host_item",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "ITM Host Item",
+   "label": "Host Item",
    "options": "ITM Host Item"
   }
  ],
  "istable": 1,
  "links": [],
- "modified": "2025-12-17 15:41:48.952212",
+ "modified": "2026-04-06 11:55:50.396999",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "ITM Host Item Table",

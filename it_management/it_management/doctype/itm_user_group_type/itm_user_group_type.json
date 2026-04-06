@@ -11,8 +11,8 @@
   "lft",
   "rgt",
   "is_group",
-  "old_parent",
-  "parent_user_group_type"
+  "itm_old_parent",
+  "itm_parent_user_group_type"
  ],
  "fields": [
   {
@@ -44,20 +44,20 @@
    "label": "Is Group"
   },
   {
-   "fieldname": "old_parent",
+   "fieldname": "itm_old_parent",
    "fieldtype": "Link",
    "label": "Old Parent",
    "options": "ITM User Group Type"
   },
   {
-   "fieldname": "parent_user_group_type",
+   "fieldname": "itm_parent_user_group_type",
    "fieldtype": "Link",
    "label": "Parent User Group Type",
    "options": "ITM User Group Type"
   }
  ],
  "links": [],
- "modified": "2025-12-17 15:35:36.225941",
+ "modified": "2026-04-06 11:49:59.210223",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "ITM User Group Type",
