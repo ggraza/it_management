@@ -1,7 +1,7 @@
 {
  "app": "it_management",
  "charts": [],
- "content": "[{\"id\":\"EkdyV3N5Ie\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">IT Management</span>\",\"col\":12}},{\"id\":\"rwNPVL-p3-\",\"type\":\"paragraph\",\"data\":{\"text\":\"Welcome to the IT Management App. This app is built on Frappe and can be run without using ERPNext. If desired can be activated for ERPNext through the settings. Each Doctype created for the IT Management app carries the prefix ITM to avoid name duplicates and to quickly identity them as belonging to the IT Management app.\",\"col\":12}},{\"id\":\"lVIHnh6pht\",\"type\":\"paragraph\",\"data\":{\"text\":\"Your overall IT overview starts with the ITM Landscape. An IT Landscape is linked to most other DocTypes in this app and will help you navigate all the different DocTypes available to your IT Landscapes.\",\"col\":12}},{\"id\":\"0vWI7JIgVu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"ITM Landscape\",\"col\":3}},{\"id\":\"MsrvszhZSu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"ITM Host Item\",\"col\":3}},{\"id\":\"vQ568QpuUS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"IT Management Settings\",\"col\":3}}]",
+ "content": "[{\"id\":\"EkdyV3N5Ie\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">IT Management</span>\",\"col\":12}},{\"id\":\"rwNPVL-p3-\",\"type\":\"paragraph\",\"data\":{\"text\":\"Welcome to the IT Management App. This app is built on Frappe and can be run without using ERPNext. If desired it can be activated for ERPNext through the settings. Each DocType created for the IT Management app carries the prefix ITM to avoid name duplicates and to quickly identity them as belonging to the IT Management app.\",\"col\":12}},{\"id\":\"lVIHnh6pht\",\"type\":\"paragraph\",\"data\":{\"text\":\"Your IT overview starts with the ITM Landscape. An ITM Landscape is linked to most other DocTypes in this app and will help you navigate all the different DocTypes available to your ITM Landscapes.\",\"col\":12}},{\"id\":\"pferI51Txs\",\"type\":\"card\",\"data\":{\"card_name\":\"Configuration\",\"col\":4}}]",
  "creation": "2024-01-16 04:51:02.486516",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,8 +12,48 @@
  "idx": 0,
  "is_hidden": 0,
  "label": "IT Management",
- "links": [],
- "modified": "2026-02-15 17:18:00.352476",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Configuration",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "ITM Landscape",
+   "link_count": 0,
+   "link_to": "ITM Landscape",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "ITM Host Item",
+   "link_count": 0,
+   "link_to": "ITM Host Item",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "IT Management Settings",
+   "link_count": 0,
+   "link_to": "IT Management Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-06 04:57:22.171412",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "IT Management",
@@ -24,30 +64,7 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 39.0,
- "shortcuts": [
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "ITM Host Item",
-   "link_to": "ITM Host Item",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "IT Management Settings",
-   "link_to": "IT Management Settings",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "ITM Landscape",
-   "link_to": "ITM Landscape",
-   "type": "DocType"
-  }
- ],
+ "shortcuts": [],
  "title": "IT Management",
  "type": "Workspace"
 }

@@ -1,0 +1,23 @@
+{
+ "app": "it_management",
+ "bg_color": "gray",
+ "creation": "2026-04-06 05:02:22.116277",
+ "docstatus": 0,
+ "doctype": "Desktop Icon",
+ "hidden": 0,
+ "icon_type": "App",
+ "idx": 0,
+ "label": "IT Management",
+ "link": "/desk/it-management",
+ "link_to": "IT Management",
+ "link_type": "Workspace Sidebar",
+ "logo_url": "/assets/it_management/icon/it_management.svg",
+ "modified": "2026-04-06 05:04:43.505512",
+ "modified_by": "Administrator",
+ "name": "IT Management",
+ "owner": "Administrator",
+ "restrict_removal": 0,
+ "roles": [],
+ "sidebar": "IT Management",
+ "standard": 1
+}
