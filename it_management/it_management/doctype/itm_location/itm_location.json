@@ -1,20 +1,20 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:location_name",
+ "autoname": "field:itm_location_name",
  "creation": "2024-01-23 16:32:39.706758",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "location_name",
-  "location_address",
+  "itm_location_name",
+  "itm_location_address",
   "is_group",
   "lft",
   "rgt",
-  "old_parent",
-  "parent_itm_location",
+  "itm_old_parent",
+  "itm_parent_location",
   "disabled"
  ],
  "fields": [
@@ -23,14 +23,6 @@
    "fieldname": "disabled",
    "fieldtype": "Check",
    "label": "Disabled"
-  },
-  {
-   "fieldname": "location_name",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Location Name",
-   "reqd": 1,
-   "unique": 1
   },
   {
    "fieldname": "lft",
@@ -55,23 +47,31 @@
    "label": "Is Location Group"
   },
   {
-   "fieldname": "old_parent",
+   "fieldname": "itm_location_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Location Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "itm_location_address",
+   "fieldtype": "Link",
+   "label": "Location Address",
+   "options": "Address"
+  },
+  {
+   "fieldname": "itm_old_parent",
    "fieldtype": "Link",
    "hidden": 1,
    "label": "Old Parent",
    "options": "ITM Location"
   },
   {
-   "fieldname": "parent_itm_location",
+   "fieldname": "itm_parent_location",
    "fieldtype": "Link",
-   "label": "Parent ITM Location",
+   "label": "Parent Location",
    "options": "ITM Location"
-  },
-  {
-   "fieldname": "location_address",
-   "fieldtype": "Link",
-   "label": "Location Address",
-   "options": "Address"
   }
  ],
  "index_web_pages_for_search": 1,
@@ -82,12 +82,12 @@
    "link_fieldname": "itm_location"
   }
  ],
- "modified": "2024-01-26 23:05:07.351708",
+ "modified": "2026-04-06 12:19:24.082572",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "ITM Location",
  "naming_rule": "By fieldname",
- "nsm_parent_field": "parent_itm_location",
+ "nsm_parent_field": "itm_parent_location",
  "owner": "Administrator",
  "permissions": [
   {
@@ -103,6 +103,7 @@
    "write": 1
   }
  ],
+ "row_format": "Dynamic",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []

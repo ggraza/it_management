@@ -126,13 +126,13 @@
   {
    "fieldname": "itm_landscape",
    "fieldtype": "Link",
-   "label": "ITM Landscape",
+   "label": "Landscape",
    "options": "ITM Landscape"
   },
   {
    "fieldname": "itm_software_instance",
    "fieldtype": "Link",
-   "label": "ITM Software Instance",
+   "label": "Software Instance",
    "options": "ITM Software Instance",
    "reqd": 1
   },
@@ -141,7 +141,7 @@
    "fetch_from": "software_instance.configuration_item",
    "fieldname": "itm_host_item",
    "fieldtype": "Link",
-   "label": "ITM Host Item",
+   "label": "Host Item",
    "options": "ITM Host Item",
    "read_only": 1
   },
@@ -157,41 +157,41 @@
   {
    "fieldname": "itm_user_account_table",
    "fieldtype": "Table",
-   "label": "ITM User Account Table",
+   "label": "User Account Table",
    "options": "ITM User Account Table"
   },
   {
    "fieldname": "itm_user_groups",
    "fieldtype": "Table",
-   "label": "ITM User Groups",
+   "label": "User Groups",
    "options": "ITM User Group Table"
   },
   {
    "fieldname": "itm_software_instance_table",
    "fieldtype": "Table",
-   "label": "ITM Software Instances",
+   "label": "Software Instances",
    "options": "ITM Software Instance Table"
   },
   {
    "fieldname": "itm_solution_table",
    "fieldtype": "Table",
    "in_standard_filter": 1,
-   "label": "ITM Solutions",
+   "label": "Solutions",
    "options": "ITM Solution Table"
   },
   {
    "fieldname": "itm_host_item_table",
    "fieldtype": "Table",
-   "label": "ITM Host Items",
+   "label": "Host Items",
    "options": "ITM Host Item Table"
   }
  ],
  "links": [],
- "modified": "2025-12-17 15:46:02.872133",
+ "modified": "2026-04-06 12:04:34.550368",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "ITM User Account",
- "naming_rule": "Expression",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {

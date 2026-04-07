@@ -12,7 +12,7 @@
  "fields": [
   {
    "fieldname": "note",
-   "fieldtype": "Data",
+   "fieldtype": "Small Text",
    "in_list_view": 1,
    "label": "Note"
   },
@@ -27,13 +27,13 @@
    "fieldname": "itm_user_group",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "ITM User Group",
+   "label": "User Group",
    "options": "ITM User Group"
   }
  ],
  "istable": 1,
  "links": [],
- "modified": "2025-12-17 15:45:22.291337",
+ "modified": "2026-04-06 12:01:36.489220",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "ITM User Group Table",

@@ -16,7 +16,7 @@
   "itm_solution",
   "itm_user_account",
   "itm_user_group_type",
-  "desription",
+  "description",
   "itm_user_accounts"
  ],
  "fields": [
@@ -49,47 +49,48 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "desription",
-   "fieldtype": "Small Text",
-   "label": "Desription"
-  },
-  {
    "fieldname": "itm_landscape",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "ITM Landscape",
+   "label": "Landscape",
    "options": "ITM Landscape"
   },
   {
    "fieldname": "itm_solution",
    "fieldtype": "Link",
-   "label": "ITM Solution",
+   "label": "Solution",
    "options": "ITM Solution"
   },
   {
    "fieldname": "itm_user_account",
    "fieldtype": "Link",
-   "label": "ITM User Account",
+   "label": "User Account",
    "options": "ITM User Account"
   },
   {
    "fieldname": "itm_user_group_type",
    "fieldtype": "Link",
-   "label": "ITM User Group Type",
+   "label": "User Group Type",
    "options": "ITM User Group Type"
   },
   {
    "fieldname": "itm_user_accounts",
    "fieldtype": "Data",
    "hidden": 1,
-   "label": "ITM User Accounts"
+   "label": "User Accounts"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
   }
  ],
  "links": [],
- "modified": "2025-12-17 15:36:56.349275",
+ "modified": "2026-04-06 12:01:17.477778",
  "modified_by": "Administrator",
  "module": "IT Management",
  "name": "ITM User Group",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
