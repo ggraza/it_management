@@ -11,6 +11,21 @@ app_color = "blue"
 app_email = "Dienstleistungsverträge, Accounts und Internetleistungen.info@tueit.de"
 app_license = "GPL"
 
+# Apps
+# ------------------
+
+# required_apps = []
+
+# Each item in the list will be shown as an app in the apps page
+add_to_apps_screen = [
+	{
+		"name": "it_management",
+		"logo": "/assets/it_management/icon/it_management.svg",
+		"title": "IT Management",
+		"route": "/desk/it-management",
+	}
+]
+
 # Includes in <head>
 # ------------------
 
